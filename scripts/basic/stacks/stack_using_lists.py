@@ -1,5 +1,5 @@
 # ------------------------------------------------------
-# File: stacks_using_lists.py
+# File: stack_using_lists.py
 # Date: 2025-01-25
 # Author: Sudhanshu Ranjan
 # ------------------------------------------------------
