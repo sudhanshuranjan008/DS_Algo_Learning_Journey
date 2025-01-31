@@ -25,19 +25,23 @@ class CircularQueue:
 
     # Method to add an element to the queue
     def enqueue(self, item):
+    # Check if the queue is full
         if self.is_full():
-            raise OverflowError("Queue overflow. Cannot enqueue new item.")  # Raise an error if the queue is full
-
-        # If the queue is empty, initialize the front pointer
-        if self.front == -1:
+            print(f"Queue is full. Overwriting {self.cir_queue[self.front]}.")
+            # Move the front pointer forward to overwrite the oldest element
+            self.front = (self.front + 1) % self.size
+        
+        # Initialize the front pointer if the queue is empty
+        elif self.front == -1:
             self.front = 0
 
-        # Move the rear pointer to the next position in a circular manner
+        # Move the rear pointer forward in a circular manner
         self.rear = (self.rear + 1) % self.size
 
-        # Add the item to the rear of the queue
+        # Place the new item at the rear position
         self.cir_queue[self.rear] = item
         print(f"{item} enqueued.")
+
 
     # Method to get the front element of the queue without removing it
     def peek(self):
@@ -100,6 +104,9 @@ if __name__ == "__main__":
         my_queue.enqueue(10)
         print("Current queue:", my_queue.display())
 
+        my_queue.enqueue(12)
+        print("Current queue:", my_queue.display())
+
         # Dequeue all elements one by one
         while not my_queue.is_empty():
             my_queue.dequeue()
@@ -109,6 +116,7 @@ if __name__ == "__main__":
 
         # Attempt to dequeue from an empty queue (will raise an exception)
         my_queue.dequeue()
+
 
     except Exception as e:
         # Catch and print any exceptions
