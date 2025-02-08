@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 # File: insertion_sort.py
 # Date: 2025-02-07
-# Author: Sudhanshu Ranian
+# Author: Sudhanshu Ranjan
 # ------------------------------------------------------
 
 # Implement Insertion Sort and sort an array in ascending order

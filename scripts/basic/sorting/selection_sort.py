@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 # File: selection_sort.py
 # Date: 2025-02-07
-# Author: Sudhanshu Ranian
+# Author: Sudhanshu Ranjan
 # ------------------------------------------------------
 
 # Implement Selection Sort to sort an array

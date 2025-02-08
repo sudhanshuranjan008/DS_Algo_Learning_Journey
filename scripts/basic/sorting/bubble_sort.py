@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 # File: bubble_sort.py
 # Date: 2025-02-07
-# Author: Sudhanshu Ranian
+# Author: Sudhanshu Ranjan
 # ------------------------------------------------------
 
 # Write a function to implement Bubble Sort and sort an array in ascending order
