@@ -1,22 +1,24 @@
-# DS_Algo_Learning_Journey
+📚 DSA & Algorithms
+Welcome to my Data Structures & Algorithms (DSA) repository! This is a collection of algorithms and data structures I’m learning, practicing, and improving on. I am focusing on enhancing my problem-solving abilities, improving code efficiency, and preparing for technical interviews and job opportunities in Data Engineering and Python Development.
 
-## About
-This repository is dedicated to my learning journey in Data Structures and Algorithms (DSA). It includes problem-solving approaches, implementation techniques, and explanations of various DSA concepts.
+🔹 Key Concepts Covered:
+In this repository, I am working on a variety of algorithms and data structures, including:
 
-## Structure
-The repository is organized as follows:
-- **Arrays**: Basic and advanced array problems.
-- **Linked Lists**: Singly, doubly, and circular linked lists.
-- **Stacks & Queues**: Stack-based problems and queue operations.
-- **Trees**: Binary trees, binary search trees, and more.
-- **Graphs**: BFS, DFS, and graph-based problems.
-- **Sorting & Searching**: Implementations of algorithms like quicksort, mergesort, etc.
-- **Dynamic Programming**: Classic DP problems and techniques.
+Sorting Algorithms: QuickSort, MergeSort, BubbleSort, etc.
+Searching Algorithms: Binary Search, Linear Search.
+Linked Lists: Singly Linked List, Doubly Linked List, etc.
+Stacks & Queues: Implementation using arrays/linked lists.
+Trees: Binary Trees, Binary Search Trees, AVL Trees, etc.
+Greedy Algorithms: Activity Selection, Job Sequencing, etc.
 
-## Purpose
-- Strengthen my problem-solving skills.
-- Document and track my learning progress.
-- Provide a reference for others interested in DSA.
+🌱 Current Focus:
+Problem-Solving & Optimization: Solving problems from LeetCode, HackerRank, and InterviewBit to solidify my understanding of algorithms.
+Big-O Complexity: Focusing on time and space optimization of algorithms to be interview-ready.
+
+🚀 Goals:
+Master DSA for technical interviews.
+Implement complex algorithms and improve code efficiency.
+Learn new data structures and practice solving more advanced problems.
 
 ## Technologies Used
 - **Python**: Primary language for implementing algorithms and solving problems.
