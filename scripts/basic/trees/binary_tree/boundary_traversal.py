@@ -147,7 +147,7 @@ if __name__ == "__main__":
     node6.left = node9
     node6.right = node10
 
-    # Diaply the traversal of the tree for better visualization
+    # Disply the traversal of the tree for better visualization
     print(f"Pre-order Traversal: {preorder(root)}")
     print(f"Boundary Traversal : {boundary_traversal(root)}")
 
