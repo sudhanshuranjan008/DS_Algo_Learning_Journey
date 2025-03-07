@@ -50,7 +50,7 @@ class MinHeap:
         if self.size == 0:
             return "Heap is empty"
 
-        root_value = self.heap[1]  # Store the root value
+        root_value = self.heap[1]  # Store the root value (Min element)
 
         if self.size == 1:  # Only one element case
             self.size -= 1
@@ -68,7 +68,7 @@ class MinHeap:
         self.size = len(elements)
         self.heap = [0] + elements[:]  # Maintain index 0 for easier calculations
 
-        index = self.size // 2  # Start heapifying from the first non-leaf node
+        index = self.size // 2  # Start from the last non-leaf node and heapify down
         while index > 0:
             self.perc_down(index)
             index -= 1  # Move to the next parent node
